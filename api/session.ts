@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { createSessionCookie, clearSessionCookie, getRole } from './_lib/session'
-import { jsonError } from './_lib/http'
+import { createSessionCookie, clearSessionCookie, getRole } from './_lib/session.js'
+import { jsonError } from './_lib/http.js'
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === 'POST') {

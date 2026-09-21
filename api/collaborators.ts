@@ -1,8 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { db } from './_lib/firebase'
-import { jsonError } from './_lib/http'
-import { requireEditor } from './_lib/session'
-import { DEPARTMENTS, STATUSES } from '../src/types/collaborator'
+import { db } from './_lib/firebase.js'
+import { jsonError } from './_lib/http.js'
+import { requireEditor } from './_lib/session.js'
+import { DEPARTMENTS, STATUSES } from '../src/types/collaborator.js'
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   const collection = db.collection('collaborators')

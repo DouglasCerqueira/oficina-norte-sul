@@ -1,6 +1,6 @@
 import { createHmac, timingSafeEqual } from 'crypto'
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import type { Role } from '../../src/types/session'
+import type { Role } from '../../src/types/session.js'
 
 const COOKIE_NAME = 'ons_session'
 
