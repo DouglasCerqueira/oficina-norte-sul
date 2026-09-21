@@ -5,7 +5,7 @@ fictícia (Oficina Norte Sul). Feito como exercício de portfólio, focado em CR
 filtro, controle de permissão e organização de código — não é um produto em
 produção.
 
-🔗 **Demo:** _(link da Vercel será adicionado após o deploy de produção)_
+🔗 https://oficina-norte-sul.vercel.app/
 
 ## O que este sistema é
 
